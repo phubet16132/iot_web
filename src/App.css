@@ -1,0 +1,57 @@
+:root{
+    --bg-color: #cbbaeb;
+    --component-color: #655DBB;
+    --main-color: #ECF2FF;
+    --sub-color: #3E54AC;
+    --font-color: #262327;
+}
+
+body{
+    height: 100%;
+    background: rgb(101,93,187);
+    background: linear-gradient(337deg, rgba(101,93,187,1) 0%, rgba(203,186,235,1) 66%, rgba(211,217,232,1) 100%);
+    background-attachment:fixed;
+    background-origin:inital;
+    background-repeat:no repeat;
+    color: var(--font-color);
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+}
+
+.app-content{
+    margin: 100px 2em;
+}
+
+.header{
+    font-weight: bold;
+    font-size: 2em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    background: var(--main-color);
+    display: flex;
+    align-items: center;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.app-topic{
+    margin-left: 40px;
+}
+
+.by{
+    font-size: 0.4em;
+}
+
+.group-name{
+    color: var(--component-color);
+    font-size: 0.6em;
+}
+
+.error{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
